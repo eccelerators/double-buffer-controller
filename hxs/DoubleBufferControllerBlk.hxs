@@ -172,7 +172,7 @@ namespace Eccelerators.Library.Base
 				{
 					Name = "Any value written has no effect.";
 					Behaviour = ValueBehaviour.Write;
-					Value = 0b**;
+					Value = 0b*U;
 				}
 				Resets = [Rst(Value=0b00, Behaviour=ResetBehaviour.Read)];
 
@@ -182,7 +182,7 @@ namespace Eccelerators.Library.Base
 			{
 				Name = "Buffer owned by HW";
 				Description = "
-				    HW sets this bit to |.Available....|, when it has completely ended processing a HW owned buffer, thus committing its ownership to SW. 
+				    HW sets this bit to |.Available....|, when it has completely ended processing a HW owned buffer, thus committing1 its ownership to SW. 
 				    	
 				    The first two sequentially presented buffers to SW after a controller activation contain undefined data.	
 				    		    

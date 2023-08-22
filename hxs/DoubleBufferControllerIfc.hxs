@@ -57,7 +57,7 @@ namespace Eccelerators.Library.Base
 				.. |.Prepared....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.ControlReg.Id»/bit:«DoubleBufferControllerBlk.ControlReg.SwBuffer.Id»/val:«DoubleBufferControllerBlk.ControlReg.SwBuffer.Prepared.Id»<###
 
                 .. |.StatusReg....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.StatusReg.Id»<###
-				.. |.Operation....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.StatusReg.Id»/bit:«DoubleBufferControllerBlk.StatusReg.HwBuffer.Id»<###
+				.. |.Operation....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.StatusReg.Id»/bit:«DoubleBufferControllerBlk.StatusReg.Operation.Id»<###
 				.. |.Off....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.StatusReg.Id»/bit:«DoubleBufferControllerBlk.StatusReg.Operation.Id»/val:«DoubleBufferControllerBlk.StatusReg.Operation.Off.Id»<###
 				.. |.Idle....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.StatusReg.Id»/bit:«DoubleBufferControllerBlk.StatusReg.Operation.Id»/val:«DoubleBufferControllerBlk.StatusReg.Operation.Idle.Id»<###
 				.. |.Busy....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.StatusReg.Id»/bit:«DoubleBufferControllerBlk.StatusReg.Operation.Id»/val:«DoubleBufferControllerBlk.StatusReg.Operation.Busy.Id»<###
@@ -65,6 +65,7 @@ namespace Eccelerators.Library.Base
 				.. |.HwBuffer....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.StatusReg.Id»/bit:«DoubleBufferControllerBlk.StatusReg.HwBuffer.Id»<###
 				.. |.Available....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.StatusReg.Id»/bit:«DoubleBufferControllerBlk.StatusReg.HwBuffer.Id»/val:«DoubleBufferControllerBlk.StatusReg.HwBuffer.Available.Id»<###
 				.. |.UnAvailable....| replace:: ###>ifc:«DoubleBufferControllerIfc.Id»/blk:«DoubleBufferControllerBlk.Id»/fld:«DoubleBufferControllerBlk.StatusReg.Id»/bit:«DoubleBufferControllerBlk.StatusReg.HwBuffer.Id»/val:«DoubleBufferControllerBlk.StatusReg.HwBuffer.UnAvailable.Id»<###			 				 
+
 			";
 		}
 	}
