@@ -55,8 +55,7 @@ namespace Eccelerators.Library.Base
 			Width = 32;
 			WriteTransparentPulse = true;
 			Bits = [
-				Reserved(Width=30),	
-				DoubleBufferControllerBlk.ControlReg.SwBuffer,
+				DoubleBufferControllerBlk.ControlReg.SwBuffer(Position=30),
 				DoubleBufferControllerBlk.ControlReg.Activation
 			];
 			
@@ -127,8 +126,7 @@ namespace Eccelerators.Library.Base
 			Name = "Status Register";
 			Width = 32;
 			Bits = [
-				Reserved(Width=29),
-				DoubleBufferControllerBlk.StatusReg.HwBuffer,
+				DoubleBufferControllerBlk.StatusReg.HwBuffer(Position=29),
 				DoubleBufferControllerBlk.StatusReg.Operation
 			];
 			enum Operation
@@ -172,7 +170,7 @@ namespace Eccelerators.Library.Base
 				{
 					Name = "Any value written has no effect.";
 					Behaviour = ValueBehaviour.Write;
-					Value = 0b*U;
+					Value = 0b**;
 				}
 				Resets = [Rst(Value=0b00, Behaviour=ResetBehaviour.Read)];
 
