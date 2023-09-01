@@ -3,7 +3,7 @@
 	
     <target name="getHxsBases" description="Get HxS base files"> 
         <exec executable="curl" >
-        	<arg value="https://raw.githubusercontent.com/eccelerators/UsualObjects/1.0.0/hxs/UsualObjects.hxs"/>
+        	<arg value="https://raw.githubusercontent.com/eccelerators/usual-objects/1.0.0/hxs/UsualObjects.hxs"/>
         	<arg value="-o"/>
         	<arg value="./UsualObjects.hxs"/>
         </exec> 
