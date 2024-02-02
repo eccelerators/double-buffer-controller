@@ -1,3 +1,3 @@
-[submodule "submodules/double-buffer-controller"]
-	path = submodules/double-buffer-controller
-	url = git@github.com:eccelerators/double-buffer-controller.git
+[submodule "submodules/usual-objects"]
+	path = submodules/usual-objects
+	url = https://github.com/eccelerators/usual-objects.git
